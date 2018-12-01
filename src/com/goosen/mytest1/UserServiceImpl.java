@@ -12,6 +12,10 @@ public class UserServiceImpl implements UserService{
 	public User get(String id) {
 		return userDao.get(id);
 	}
+	
+	public String master(){
+		return "masater";
+	}
 
 	@Override
 	public User get(User entity) {
