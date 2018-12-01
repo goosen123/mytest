@@ -4,6 +4,8 @@ public class User {
 
 	private String id;
 	private String name;
+	//≤‚ ‘¿≠∑÷÷ß
+	private String desc;
 	
 	public String getId() {
 		return id;
@@ -16,5 +18,11 @@ public class User {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
 	}
 }
