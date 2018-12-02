@@ -16,6 +16,10 @@ public class UserServiceImpl implements UserService{
 	public String branch(){
 		return "branch";
 	}
+	
+	public String hh(){
+		return "hh";
+	}
 
 	@Override
 	public User get(User entity) {
